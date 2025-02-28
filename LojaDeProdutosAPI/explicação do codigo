@@ -1,0 +1,17 @@
+Uma loja de produtos feita usando API fetch, um teste para começo de estudo sobre APIs.
+Breve explicação para facil entendimento
+HTML=
+Cabeçalho (<header>): Contém o título da loja.
+Corpo Principal (<main>): Contém o contêiner onde os produtos serão exibidos.
+Rodapé (<footer>): Contém informações de copyright.
+Script (<script>): Carrega o arquivo JavaScript que busca e exibe os produtos.
+CSS=
+Estilos Gerais: Define a fonte, margens e cores de fundo.
+Cabeçalho e Rodapé: Define o estilo do cabeçalho e rodapé.
+Contêiner de Produtos: Define o layout flexível para os produtos.
+Cartões de Produtos: Define o estilo dos cartões de produtos, incluindo bordas, sombras e transições.
+JavaScript=
+-Evento DOMContentLoaded: Garante que o código só será executado após o carregamento completo do DOM.
+-Fetch API: Faz uma requisição GET para a API do DummyJSON.
+-Manipulação de Dados: Itera sobre os produtos recebidos e cria elementos HTML para exibi-los na página.
+-Tratamento de Erros: Exibe erros no console caso a requisição falhe.
